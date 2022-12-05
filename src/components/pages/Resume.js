@@ -1,14 +1,18 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
+import cvIcon from "../assets/images/cv-icon.png";
+import '../styles/Resume.css';
 
 function Resume() {
     return(
         <>
         <h1 className="resume">RESUME</h1>
-        <div class="resume-doc">
-            <a href="https://docs.google.com/document/d/1i7i2z1oRVMucqhT1F_uVyma6RKXBEateIcN1r1TGKOc/edit?usp=sharing" target="_blank">Resume</a>
+        <Col lg={6} md={12}>
+        <div className="row justify-content-center" id="resume-doc">
+            <a href="https://docs.google.com/document/d/1i7i2z1oRVMucqhT1F_uVyma6RKXBEateIcN1r1TGKOc/edit?usp=sharing" target="_blank"><img src={cvIcon} alt="cv-icon" className="cv-icon"/></a>
         </div>
-        <div class="resume-content">
-            <h2 class="resume">FRONT END PROFICIENCIES</h2>
+        <div className="resume-content">
+            <h2 className="resume">FRONT END PROFICIENCIES</h2>
             <ul>
                 <li>
                     HTML
@@ -29,7 +33,7 @@ function Resume() {
 
 
 
-            <h2 class="resume">BACK END PROFICIENCIES</h2>
+            <h2 className="resume">BACK END PROFICIENCIES</h2>
             <ul>
                 <li>
                     Node.js
@@ -48,7 +52,10 @@ function Resume() {
                 </li>
             </ul>
 
+        
+
         </div>
+        </Col>
         </>
     )
 }
