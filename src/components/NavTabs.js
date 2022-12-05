@@ -6,16 +6,16 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         <Nav className="justify-content-end">
         <Nav.Item>
-          <Nav.Link href="#">About</Nav.Link>
+          <Nav.Link onClick={() =>handlePageChange("About")}>About</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="#">Portfolio</Nav.Link>
+          <Nav.Link onClick={() =>handlePageChange("Portfolio")}>Portfolio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="#">Contact</Nav.Link>
+          <Nav.Link onClick={() =>handlePageChange("Contact")}>Contact</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-            <Nav.Link eventKey="#">Resume</Nav.Link>
+            <Nav.Link onClick={() =>handlePageChange("Resume")}>Resume</Nav.Link>
         </Nav.Item>
       </Nav>
 
