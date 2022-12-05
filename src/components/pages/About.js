@@ -1,15 +1,16 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
 import Myphoto from '../assets/images/ying-profile-photo.jpeg';
+import '../styles/About.css';
 
 function About() {
     return(
         <section className="title">
             <div className="row justify-content-center" id="about-container">
             <Col lg={6} md={12}>
-            <center><img src={Myphoto} className="my-pic" alt="ying-ying"/></center>
-            <p class="name">Ying Ying Liu</p>
-            <p class="job">Full Stack Web Developer</p>
+            <div className="myphoto"><img src={Myphoto} className="my-pic" alt="ying-ying"/></div>
+            <p className="name">Ying Ying Liu</p>
+            <p className="job">Full Stack Web Developer</p>
             <h2 className="about-me">About Me</h2>
                 <p>
                 Hello, I'm Ying Ying! I want to change my expertise from Accounting to a full-stack developer.
