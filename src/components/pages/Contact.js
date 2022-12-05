@@ -59,13 +59,6 @@ function ContactForm() {
         Submit
       </Button>
     </Form>
-
-            {/* <form id="contact-form">
-                    <input type='text' placeholder='Name' name='name' defaultValue={name} onChange={handleChange} />
-                    <input type='text' placeholder='Email' name='email' defaultValue={email} onChange={handleChange}/>
-                    <textarea name='message' rows='5' placeholder='Message' defaultValue={message} onChange={handleChange}></textarea>
-                    <button type="button" onClick={handleSubmit}>Submit</button>
-            </form> */}
         </section>
     )
 }
