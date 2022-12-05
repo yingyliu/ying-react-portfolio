@@ -30,9 +30,8 @@ function Resume() {
                     Responsicve Web Design
                 </li>
             </ul>
-
-
-
+            <br></br>
+            <br></br>
             <h2 className="resume">BACK END PROFICIENCIES</h2>
             <ul>
                 <li>
