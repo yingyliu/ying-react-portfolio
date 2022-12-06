@@ -1,11 +1,18 @@
+div#footer {
+  
+  text-align: center;
+}
+
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: mistyrose;
+    /* background-color: mistyrose; */
     display: inline;
   
   }
+
+
 
 .social-media-icon {
     width: 50px;
