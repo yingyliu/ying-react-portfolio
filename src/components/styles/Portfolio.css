@@ -32,6 +32,14 @@
     background-image: url("../assets/images/newbieBay.png");
 }
 
+.projects-images li:nth-of-type(5) {
+    background-image: url("../assets/images/codequiz.png");
+}
+
+.projects-images li:nth-of-type(6) {
+    background-image: url("../assets/images/noteTaker.png");
+}
+
 .projects-display {
     opacity: 0.2;
     transition: all 0.7s;

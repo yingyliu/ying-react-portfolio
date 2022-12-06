@@ -31,6 +31,18 @@ function ProjectsList () {
                     <a href="https://darxmarx.github.io/california-bay-area-guide/" target="_blank"><img src={githubicon} alt="github-logo" className="social-media-icon"/></a>
                     </div>
                 </li>
+                <li>
+                    <div className='d-flex projects-display'>
+                    <h2>Code Quiz</h2>
+                    <a href="https://yingyliu.github.io/code-quiz/" target="_blank"><img src={githubicon} alt="github-logo" className="social-media-icon"/></a>
+                    </div>
+                </li>
+                <li>
+                    <div className='d-flex projects-display'>
+                    <h2>Note Taker</h2>
+                    <a href="https://yingyliu.github.io/note-taker/" target="_blank"><img src={githubicon} alt="github-logo" className="social-media-icon"/></a>
+                    </div>
+                </li>
             </ul>
         </section>
         
