@@ -9,7 +9,8 @@ function Resume() {
         <h1 className="resume">RESUME</h1>
         <Col lg={6} md={12}>
         <div className="row justify-content-center" id="resume-doc">
-            <a href="https://docs.google.com/document/d/1i7i2z1oRVMucqhT1F_uVyma6RKXBEateIcN1r1TGKOc/edit?usp=sharing" target="_blank"><img src={cvIcon} alt="cv-icon" className="cv-icon"/></a>
+            {/* <a href="https://docs.google.com/document/d/1i7i2z1oRVMucqhT1F_uVyma6RKXBEateIcN1r1TGKOc/edit?usp=sharing" target="_blank"><img src={cvIcon} alt="cv-icon" className="cv-icon"/></a> */}
+            <a href=" " download="resume.png"><img src={cvIcon} alt="cv-icon" className="cv-icon"/>Download My Resume</a>
         </div>
         <div className="resume-content">
             <h2 className="resume">FRONT END PROFICIENCIES</h2>
