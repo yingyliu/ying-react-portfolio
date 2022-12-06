@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Col } from 'react-bootstrap';
 import cvIcon from "../assets/images/cv-icon.png";
 import '../styles/Resume.css';
 
@@ -7,7 +6,6 @@ function Resume() {
     return(
         <>
         <h1 className="resume-title">RESUME</h1>
-        {/* <Col lg={6} md={12}> */}
         <br></br>
         <br></br>
         <div className="row justify-content-center resume-content" id="resume-doc">
@@ -55,11 +53,7 @@ function Resume() {
                     API (web, third-party, RESTful, server-side)
                 </li>
             </ul>
-
-        
-
         </div>
-        {/* </Col> */}
         </>
     )
 }

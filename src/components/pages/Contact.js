@@ -5,17 +5,8 @@ import Form from 'react-bootstrap/Form';
 import '../styles/Contact.css';
 
 function ContactForm() {
-    // const [formState, setFormState] = useState({ name:'', email:'', message:'' });
+   
     const [errorMessage, setErrorMessage] = useState('');
-    // const { name, email, message } = formState;
-
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     if(!errorMessage) {
-    //         setFormState({ [e.target.name]: e.target.value });
-    //         console.log('Form', formState);
-    //     }
-    // };
 
     const handleChange = (e) => {
         // if the element that was "blurred" is FormBasicName or formBasicMsg or FormBasicEmail
@@ -49,27 +40,27 @@ function ContactForm() {
             <h1 date-testid="h1tag">Contact Me</h1>
             <Form className="contact-me-form">
             <Form.Group className="mb-3" controlId="formBasicName">
-        <Form.Label>Name</Form.Label>
-        <Form.Control onBlur={handleChange} type="input" placeholder="Name" />
-    
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control onBlur={handleChange} type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
-      </Form.Group>
+            <Form.Label>Name</Form.Label>
+            <Form.Control onBlur={handleChange} type="input" placeholder="Name" />
 
-      <Form.Group className="mb-3" controlId="formBasicMessage">
-        <Form.Label>Message</Form.Label>
-        <Form.Control onBlur={handleChange} type="input" placeholder="Message" />
-      </Form.Group>
-      <p>{errorMessage}</p>
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Label>Email address</Form.Label>
+            <Form.Control onBlur={handleChange} type="email" placeholder="Enter email" />
+            <Form.Text className="text-muted">
+            We'll never share your email with anyone else.
+            </Form.Text>
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="formBasicMessage">
+            <Form.Label>Message</Form.Label>
+            <Form.Control onBlur={handleChange} type="input" placeholder="Message" />
+            </Form.Group>
+            <p>{errorMessage}</p>
+            <Button variant="primary" type="submit">
+            Submit
+            </Button>
+            </Form>
         </section>
     )
 }

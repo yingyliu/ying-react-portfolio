@@ -9,7 +9,7 @@ function About() {
             <div className="row justify-content-center" id="about-container">
             <Col lg={6} md={12}>
             <div className="myphoto"><img src={Myphoto} className="my-pic" alt="ying-ying"/></div>
-            <p className="name">Ying Ying Liu</p>
+            <p className="my-name">Ying Ying Liu</p>
             <p className="job">Full Stack Web Developer</p>
             <h2 className="about-me">About Me</h2>
                 <p>
