@@ -1,4 +1,13 @@
-.resume-content{
+h1 {
+    margin: 100px;
+}
+
+#resume-doc {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.resume-content {
     width: 600px;
     margin: 0 auto;
 }
