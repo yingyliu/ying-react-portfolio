@@ -6,6 +6,7 @@ import { Col } from 'react-bootstrap';
 import '../styles/Footer.css';
 
 function Footer() {
+
     return(
         <div className="page-footer row justify-content-center" id="footer">
             <Col lg={6} md={12}>

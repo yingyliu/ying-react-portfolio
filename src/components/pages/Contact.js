@@ -5,32 +5,42 @@ import Form from 'react-bootstrap/Form';
 import '../styles/Contact.css';
 
 function ContactForm() {
-    const [formState, setFormState] = useState({ name:'', email:'', message:'' });
+    // const [formState, setFormState] = useState({ name:'', email:'', message:'' });
     const [errorMessage, setErrorMessage] = useState('');
-    const { name, email, message } = formState;
+    // const { name, email, message } = formState;
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if(!errorMessage) {
-            setFormState({ [e.target.name]: e.target.value });
-            console.log('Form', formState);
-        }
-    };
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     if(!errorMessage) {
+    //         setFormState({ [e.target.name]: e.target.value });
+    //         console.log('Form', formState);
+    //     }
+    // };
 
     const handleChange = (e) => {
-        if (e.target.name === 'email' ) {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                setErrorMessage('Email is invalid.');
-            } else {
-                setErrorMessage('');
-            }
+        // if the element that was "blurred" is FormBasicName or formBasicMsg or FormBasicEmail
+        console.log(e.target.value); // sanity check
+        // -- check if it is empty
+        if (e.target.value === '') {
+            // -- if it is, set it the error
+            setErrorMessage('Name and Message is required.')
         } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
+            console.dir(e.target)
+            if (e.target.id === 'formBasicEmail' ) {
+                const isValid = validateEmail(e.target.value);
+                if (!isValid) {
+                    setErrorMessage('Your Email is invalid.');
+                } else {
+                    setErrorMessage('');
+                }
             } else {
-                setErrorMessage('');
+                if (!e.target.value.length) {
+                    setErrorMessage(`${e.target.name} is required.`);
+                } else {
+                    setErrorMessage('');
+                }
             }
+
         }
     };
 
@@ -38,23 +48,24 @@ function ContactForm() {
         <section>
             <h1 date-testid="h1tag">Contact Me</h1>
             <Form className="contact-me-form">
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Name</Form.Label>
-        <Form.Control type="input" placeholder="Name" />
+        <Form.Control onBlur={handleChange} type="input" placeholder="Name" />
     
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Control onBlur={handleChange} type="email" placeholder="Enter email" />
         <Form.Text className="text-muted">
           We'll never share your email with anyone else.
         </Form.Text>
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formBasicPassword">
+      <Form.Group className="mb-3" controlId="formBasicMessage">
         <Form.Label>Message</Form.Label>
-        <Form.Control type="message" placeholder="Message" />
+        <Form.Control onBlur={handleChange} type="input" placeholder="Message" />
       </Form.Group>
+      <p>{errorMessage}</p>
       <Button variant="primary" type="submit">
         Submit
       </Button>
