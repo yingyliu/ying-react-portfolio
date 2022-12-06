@@ -2,12 +2,12 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
-    left: 300px;
+    background-color: mistyrose;
+    display: inline;
+  
   }
 
 .social-media-icon {
     width: 50px;
     margin: 15px;
-    
 }
