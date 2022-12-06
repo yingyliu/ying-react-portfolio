@@ -6,6 +6,11 @@ import { Col } from 'react-bootstrap';
 import '../styles/Footer.css';
 
 function Footer() {
+    // const styles = {
+    //     all:{
+    //         background: 'mistyrose',
+    //     }
+    // }
 
     return(
         <div className="page-footer row justify-content-center" id="footer">

@@ -1,5 +1,6 @@
 import React from 'react';
 import cvIcon from "../assets/images/cv-icon.png";
+import resume from '../assets/images/resume.png'
 import '../styles/Resume.css';
 
 function Resume() {
@@ -9,8 +10,7 @@ function Resume() {
         <br></br>
         <br></br>
         <div className="row justify-content-center resume-content" id="resume-doc">
-            {/* <a href="https://docs.google.com/document/d/1i7i2z1oRVMucqhT1F_uVyma6RKXBEateIcN1r1TGKOc/edit?usp=sharing" target="_blank"><img src={cvIcon} alt="cv-icon" className="cv-icon"/></a> */}
-            <a href=" " download="resume.png"><img src={cvIcon} alt="cv-icon" className="cv-icon"/>Download My Resume</a>
+            <a href={resume} download="resume.png"><img src={cvIcon} alt="cv-icon" className="cv-icon"/>Download My Resume</a>
         </div>
         <br></br>
         <br></br>

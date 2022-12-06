@@ -6,6 +6,11 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 
 function PortfolioContainer() {
+    const styles = {
+        all:{
+            background: 'mistyrose',
+        }
+    }
 
     const [currentPage, setCurrentPage] = useState('About');
     
@@ -25,7 +30,7 @@ function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return(
-        <div>
+        <div style={styles.all}>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
         </div>
