@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/ying-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/ying-react-portfolio/static/js/main.83073092.js",
+    "main.css": "/ying-react-portfolio/static/css/main.5b3034c8.css",
+    "main.js": "/ying-react-portfolio/static/js/main.eca63acc.js",
     "static/js/787.28cb0dcd.chunk.js": "/ying-react-portfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/ying-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/newbieBay.png": "/ying-react-portfolio/static/media/newbieBay.1051c5094c7626e0cd77.png",
+    "static/media/weather.png": "/ying-react-portfolio/static/media/weather.b019c184a934cf23e276.png",
+    "static/media/ying-profile-photo.jpeg": "/ying-react-portfolio/static/media/ying-profile-photo.1acc839eb51f3365c97c.jpeg",
+    "static/media/resume.png": "/ying-react-portfolio/static/media/resume.87814d426bd742f1b312.png",
+    "static/media/noteTaker.png": "/ying-react-portfolio/static/media/noteTaker.72300606d3c1c4c4a5e0.png",
+    "static/media/password-generate.png": "/ying-react-portfolio/static/media/password-generate.c34d67b993ddd5ebfc33.png",
+    "static/media/scheduler.png": "/ying-react-portfolio/static/media/scheduler.d656359082ab5ece558a.png",
+    "static/media/codequiz.png": "/ying-react-portfolio/static/media/codequiz.dec1471ef1d86b814300.png",
+    "static/media/cv-icon.png": "/ying-react-portfolio/static/media/cv-icon.2cf21801d6d246cc388b.png",
+    "static/media/medium.png": "/ying-react-portfolio/static/media/medium.d06d71a245db0137e2b2.png",
+    "static/media/github.png": "/ying-react-portfolio/static/media/github.f11021803f68852df283.png",
+    "static/media/linkedin.png": "/ying-react-portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/ying-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/ying-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.83073092.js.map": "/ying-react-portfolio/static/js/main.83073092.js.map",
+    "main.5b3034c8.css.map": "/ying-react-portfolio/static/css/main.5b3034c8.css.map",
+    "main.eca63acc.js.map": "/ying-react-portfolio/static/js/main.eca63acc.js.map",
     "787.28cb0dcd.chunk.js.map": "/ying-react-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.83073092.js"
+    "static/css/main.5b3034c8.css",
+    "static/js/main.eca63acc.js"
   ]
 }
