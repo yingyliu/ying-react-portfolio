@@ -43,6 +43,12 @@ function ProjectsList () {
                     <a href="https://yingyliu.github.io/note-taker/" target="_blank"><img src={githubicon} alt="github-logo" className="social-media-icon"/></a>
                     </div>
                 </li>
+                <li>
+                    <div className='d-flex projects-display'>
+                    <h2>Artaholic</h2>
+                    <a href="https://github.com/Dempleon/artaholic" target="_blank"><img src={githubicon} alt="github-logo" className="social-media-icon"/></a>
+                    </div>
+                </li>
             </ul>
         </section>
         
