@@ -20,9 +20,9 @@ h1 {
     padding: 0 30px;
 }
 
-.projects-images li:nth-of-type(1) {
+/* .projects-images li:nth-of-type(1) {
     background-image: url("../assets/images/password-generate.png");
-}
+} */
 
 .projects-images li:nth-of-type(2) {
     background-image: url("../assets/images/scheduler.png");
@@ -32,7 +32,7 @@ h1 {
     background-image: url("../assets/images/weather.png");
 }
 
-.projects-images li:nth-of-type(4) {
+.projects-images li:nth-of-type(2) {
     background-image: url("../assets/images/newbieBay.png");
 }
 
@@ -44,7 +44,7 @@ h1 {
     background-image: url("../assets/images/noteTaker.png");
 }
 
-.projects-images li:nth-of-type(7) {
+.projects-images li:nth-of-type(1) {
     background-image: url("../assets/images/artaholic.png");
 }
 
