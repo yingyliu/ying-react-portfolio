@@ -44,6 +44,10 @@ h1 {
     background-image: url("../assets/images/noteTaker.png");
 }
 
+.projects-images li:nth-of-type(7) {
+    background-image: url("../assets/images/artaholic.png");
+}
+
 .projects-display {
     opacity: 0.2;
     transition: all 0.7s;
