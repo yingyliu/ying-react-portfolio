@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ying-react-portfolio/static/css/main.42a38375.css",
-    "main.js": "/ying-react-portfolio/static/js/main.b089aca9.js",
+    "main.js": "/ying-react-portfolio/static/js/main.96d8d544.js",
     "static/js/787.28cb0dcd.chunk.js": "/ying-react-portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/artaholic.png": "/ying-react-portfolio/static/media/artaholic.63bd89f65bd46940a192.png",
     "static/media/newbieBay.png": "/ying-react-portfolio/static/media/newbieBay.1051c5094c7626e0cd77.png",
     "static/media/weather.png": "/ying-react-portfolio/static/media/weather.b019c184a934cf23e276.png",
+    "static/media/resume.png": "/ying-react-portfolio/static/media/resume.3d381aa5626399da0356.png",
     "static/media/ying-profile-photo.jpeg": "/ying-react-portfolio/static/media/ying-profile-photo.1acc839eb51f3365c97c.jpeg",
-    "static/media/resume.png": "/ying-react-portfolio/static/media/resume.87814d426bd742f1b312.png",
     "static/media/noteTaker.png": "/ying-react-portfolio/static/media/noteTaker.72300606d3c1c4c4a5e0.png",
     "static/media/scheduler.png": "/ying-react-portfolio/static/media/scheduler.d656359082ab5ece558a.png",
     "static/media/codequiz.png": "/ying-react-portfolio/static/media/codequiz.dec1471ef1d86b814300.png",
@@ -17,11 +17,11 @@
     "static/media/linkedin.png": "/ying-react-portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/ying-react-portfolio/index.html",
     "main.42a38375.css.map": "/ying-react-portfolio/static/css/main.42a38375.css.map",
-    "main.b089aca9.js.map": "/ying-react-portfolio/static/js/main.b089aca9.js.map",
+    "main.96d8d544.js.map": "/ying-react-portfolio/static/js/main.96d8d544.js.map",
     "787.28cb0dcd.chunk.js.map": "/ying-react-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42a38375.css",
-    "static/js/main.b089aca9.js"
+    "static/js/main.96d8d544.js"
   ]
 }
