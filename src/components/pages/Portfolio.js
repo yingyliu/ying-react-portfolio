@@ -2,6 +2,7 @@ import React from 'react';
 import githubicon from "../assets/images/github.png";
 import '../styles/Portfolio.css';
 
+// update order
 function ProjectsList () {
     return(
         <section>
