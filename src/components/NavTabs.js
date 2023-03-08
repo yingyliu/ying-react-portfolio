@@ -10,9 +10,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         <Nav.Item>
           <Nav.Link onClick={() =>handlePageChange("Portfolio")}>Portfolio</Nav.Link>
         </Nav.Item>
-        <Nav.Item>
+        {/* <Nav.Item>
           <Nav.Link onClick={() =>handlePageChange("Contact")}>Contact</Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
         <Nav.Item>
             <Nav.Link onClick={() =>handlePageChange("Resume")}>Resume</Nav.Link>
         </Nav.Item>
